@@ -13,8 +13,11 @@ export default function Login() {
   }
   return (
     <>
-      <div>Login Page</div>
-      <LoginForm onSubmit={handleLogin} error={error} />
+      <div className="flex min-h-screen items-center justify-center bg-background p-4">
+        <div className="w-full max-w-md rounded-xl border bg-card p-6 shadow-sm">
+          <LoginForm onSubmit={handleLogin} error={error} />
+        </div>
+      </div>
     </>
   )
 }

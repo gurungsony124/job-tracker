@@ -48,7 +48,7 @@ export function LoginForm({ onSubmit, error }: Props) {
           name="email"
           type="email"
           placeholder="name@company.com"
-          className="h-12"
+          className="h-12 px-6"
           value={formik.values.email}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
